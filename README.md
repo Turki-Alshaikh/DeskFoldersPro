@@ -8,9 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Windows](https://img.shields.io/badge/Platform-Windows_10_|_11-0078d7.svg?style=for-the-badge&logo=windows&logoColor=white)]()
 
-<br/>
-<img src="https://via.placeholder.com/800x400.png?text=Add+a+Screenshot+of+DeskFoldersPro+Here" alt="DeskFoldersPro Screenshot" width="800"/>
-<br/>
+
 
 </div>
 
