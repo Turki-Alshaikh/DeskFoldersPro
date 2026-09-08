@@ -46,7 +46,6 @@ To run or build the project from the source code:
    git clone [https://github.com/Turki-Alshaikh/DeskFoldersPro.git](https://github.com/Turki-Alshaikh/DeskFoldersPro.git)
    cd DeskFoldersPro
 
-```
 
 2. **Install dependencies:**
 ```bash
