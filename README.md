@@ -30,13 +30,6 @@ Powered by a smart categorization engine, it automatically detects your installe
 *   🖱️ **Drag & Drop:** Easily reorder apps within a folder, or drop new files/apps directly into an open folder.
 *   🚀 **Run on Startup:** Seamless integration with Windows startup via the system tray dashboard.
 
-## 📸 Screenshots
-
-*(Replace these placeholders with your actual screenshots)*
-
-| Dashboard / Settings | Desktop Folders (Collapsed) | Folder (Expanded) |
-| :---: | :---: | :---: |
-| `<img src="path/to/settings.png" width="250">` | `<img src="path/to/collapsed.png" width="250">` | `<img src="path/to/expanded.png" width="250">` |
 
 ## 🚀 Installation & Usage
 
