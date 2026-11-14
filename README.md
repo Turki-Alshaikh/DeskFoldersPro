@@ -34,7 +34,7 @@ Powered by a smart categorization engine, it automatically detects your installe
 ## 🚀 Installation & Usage
 
 ### For Regular Users (Executable)
-1. Download the latest `DeskFoldersPro.exe` from the [Releases](#) page.
+1. Download the latest `DeskFoldersPro.exe` from the [Releases](https://github.com/Turki-Alshaikh/DeskFoldersPro/releases) page.
 2. Run the executable. 
 3. On the first run, the **Welcome Wizard** will help you generate your smart default folders.
 4. Access the **Dashboard** at any time by double-clicking the app icon in your system tray (bottom right of your screen).
