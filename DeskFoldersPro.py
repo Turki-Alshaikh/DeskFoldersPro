@@ -745,6 +745,25 @@ class MainController:
         self.app = QApplication(sys.argv)
         self.app.setStyle("Fusion")
         self.app.setQuitOnLastWindowClosed(False)
+
+        # --- الحل النهائي والأكيد لأيقونة شريط المهام ---
+        def resource_path(relative_path):
+            """ الحصول على المسار الصحيح سواء من البايثون أو من الـ exe """
+            try:
+                # هذا المسار ينشئه PyInstaller مؤقتاً عند تشغيل الـ exe
+                base_path = sys._MEIPASS
+            except Exception:
+                base_path = os.path.abspath(".")
+            return os.path.join(base_path, relative_path)
+
+        # تحديد مسار الأيقونة (تأكد أن المجلد .ico والملف App_Icon.ico بنفس الأسماء)
+        icon_path = resource_path(os.path.join(".ico", "App_Icon.ico"))
+        
+        if os.path.exists(icon_path):
+            app_icon = QIcon(icon_path)
+            self.app.setWindowIcon(app_icon) # أيقونة البرنامج ككل
+        # ---------------------------------------------
+        
         self.config = ConfigManager.load_config()
         
         I18N.LANG = self.config.get("lang", "ar")
